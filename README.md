@@ -1,4 +1,4 @@
-# 🤖 AI Cognitive Routing & RAG System
+# AI Cognitive Routing & RAG System
 
 A production-quality AI system that simulates opinionated social-media bots with
 distinct personalities. The bots decide whether to respond to a post, generate
@@ -7,7 +7,7 @@ all while resisting prompt injection attacks.
 
 ---
 
-## 📐 Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -33,7 +33,7 @@ all while resisting prompt injection attacks.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 ai-cognitive-routing/
@@ -80,7 +80,7 @@ ai-cognitive-routing/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -126,7 +126,7 @@ Logs are written to `logs/app.log` in real time.
 
 ---
 
-## 🧠 Phase-wise Explanation
+## Phase-wise Explanation
 
 ### Phase 1 – Vector-Based Persona Routing
 
@@ -203,7 +203,7 @@ generate_defense_reply(
 
 ---
 
-## 🛡️ Prompt Injection Defense Strategy
+## Prompt Injection Defense Strategy
 
 ### The Attack
 A user embeds instructions inside a chat message to override the bot's
@@ -245,7 +245,7 @@ The system prompt contains a clearly delimited **ABSOLUTE RULES** section:
 
 ---
 
-## 💡 Example Outputs
+## Example Outputs
 
 ### Routing Result (Phase 1)
 ```
@@ -276,7 +276,7 @@ shinier one. The data supports panic, not optimism."
 
 ---
 
-## 🧾 Logging
+## Logging
 
 All events are written to `logs/app.log` using Python's `logging` module.
 
@@ -290,7 +290,7 @@ Console output shows INFO and above; the log file captures DEBUG and above.
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
 - Never commit your `.env` file. Add it to `.gitignore`.
 - The `.env.example` file is safe to commit — it contains no real secrets.
@@ -299,7 +299,7 @@ Console output shows INFO and above; the log file captures DEBUG and above.
 
 ---
 
-## 📜 License
+## License
 
 MIT — see LICENSE file.
 # ai-congnitive-routing

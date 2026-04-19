@@ -1,0 +1,23 @@
+# Environment
+
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+logs/app.log
+
+# HuggingFace / model cache
+.cache/
+
+# ChromaDB ephemeral data
+chroma/
+
+# IDE
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/

@@ -84,7 +84,7 @@ ai-cognitive-routing/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-org/ai-cognitive-routing.git
+[git clone https://github.com/your-org/ai-cognitive-routing.git](https://github.com/Suhen02/ai-congnitive-routing.git)
 cd ai-cognitive-routing
 ```
 
@@ -299,7 +299,3 @@ Console output shows INFO and above; the log file captures DEBUG and above.
 
 ---
 
-## License
-
-MIT — see LICENSE file.
-# ai-congnitive-routing

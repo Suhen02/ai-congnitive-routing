@@ -84,7 +84,7 @@ ai-cognitive-routing/
 
 ### 1. Clone the repository
 ```bash
-[git clone https://github.com/your-org/ai-cognitive-routing.git](https://github.com/Suhen02/ai-congnitive-routing.git)
+git clone https://github.com/Suhen02/ai-congnitive-routing.git
 cd ai-cognitive-routing
 ```
 
